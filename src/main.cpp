@@ -46,7 +46,7 @@ int main() {
   }
 
   sf::CircleShape bg_circle(200.f, 128);
-  bg_circle.setFillColor(sf::Color::Red);
+  bg_circle.setFillColor(sf::Color::Black);
   // bg_circle.setOutlineThickness(20);
   // bg_circle.setOutlineColor(sf::Color::White);
   bg_circle.setOrigin(
