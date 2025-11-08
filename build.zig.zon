@@ -1,0 +1,15 @@
+.{
+    .name = .sfml_project,
+    .version = "2.13.3",
+    .fingerprint = 0x30f7da9af02a125f,
+    .minimum_zig_version = "0.15.2",
+    .paths = .{
+        "LICENSE",
+        "Library.zig",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        .sfml = .{ .path = "../zig_sfml/" },
+    },
+}

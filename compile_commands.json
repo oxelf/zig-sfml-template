@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/absolute/path/to/project",
+    "command": "zig c++ -std=c++17 -Iinclude  -o zig-cache/main.o -c src/main.cpp",
+    "file": "src/main.cpp"
+  }
+]

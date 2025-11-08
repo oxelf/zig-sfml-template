@@ -1,0 +1,10 @@
+build
+out
+.cache
+.idea
+.vs
+.vscode
+.zig-run.log
+.zig-cache
+.DS_Store
+zig-out
