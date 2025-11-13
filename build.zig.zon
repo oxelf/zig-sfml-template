@@ -10,6 +10,9 @@
         "build.zig.zon",
     },
     .dependencies = .{
-        .sfml = .{ .path = "../zig_sfml/" },
+        .sfml = .{
+            .url = "git+https://github.com/oxelf/zig_sfml/?ref=HEAD#8f10183bbb4c45c4d710d955869054e32283552b",
+            .hash = "sfml-3.0.2-GwKcGAysAgAhAbyg_9g3Mw-TRo6EldSWfBM2G7lfqQmJ",
+        },
     },
 }

@@ -1,16 +1,24 @@
 # Simple SFML game template that uses Zig as the build system
 
-This template supports compiling to windows, macOS, linux, android and iOS.
+This template supports compiling to windows, macOS, linux;
+
+##### ios
+ios is confirmed to work for the simulator and build for real device,
+but on real device some permissions are wrong.
+
+##### android
+android is not yet supported, but should be possible to add support for it.
+
 
 Only dependencies is having a zig compiler installed.
 
 Cross compilation is supported for:
-- Windows from Linux and macOS
+- Windows from Linux, macOS and theoretically from Android
 - iOS from macOS
-- Android from Linux, Windows and macOS(requires Android NDK)
 
 Linux is the only platform that requires additional dependencies to be installed,
-as those are not feasible to be build from source.
+as those are not feasible to be build from source and SFML doesnt support
+using them as runtime dylibs, they have to be linked at compile time.
 
 ## Linux Dependencies
 
